@@ -473,6 +473,7 @@ body {
 }
 
 .info {
+    padding-top: 25px;
     width: 100%;
     height: auto;
     /*background-color: var(--wp--preset--color--gray);*/

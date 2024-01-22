@@ -73,7 +73,7 @@ public class HomeController extends HttpServlet {
         } else if (path.endsWith("/HomeController/Signup")) {
             request.getRequestDispatcher("/signup.jsp").forward(request, response);
         } else if (path.endsWith("/HomeController/User")) {
-            request.getRequestDispatcher("/user.jsp").forward(request, response);
+            request.getRequestDispatcher("/user.jsp").forward(request, response);   
         } else if (path.endsWith("/HomeController/Logout")) {
             Cookie[] cList = null;
             cList = request.getCookies();

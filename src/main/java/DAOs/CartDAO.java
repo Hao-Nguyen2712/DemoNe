@@ -53,7 +53,7 @@ public class CartDAO {
                 rs = pss.executeQuery();
                 while (rs.next()) {
                     quantity += rs.getInt("quantity");
-                }
+                }   
 
                 PreparedStatement psss = conn.prepareStatement("delete from Cart where username = ? and pro_id= ?");
                 psss.setString(1, username);
